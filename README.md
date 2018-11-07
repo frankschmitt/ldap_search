@@ -17,7 +17,7 @@ chmod +x setup.sh
 
 ### Usage
 
-Enumerate all active users on a damain:
+Enumerate all active users on a domain:
 ```bash
 python3 ldap_search.py users -u user1 -p Password1 -d demo.local
 ```
@@ -27,12 +27,12 @@ Lookup a single user:
 python3 ldap_search.py users -q AdminUser -u user1 -p Password1 -d demo.local
 ```
 
-Enumerate all computers on a damain:
+Enumerate all computers on a domain:
 ```bash
 python3 ldap_search.py computers -u user1 -p Password1 -d demo.local
 ```
 
-Enumerate all groups on the damain:
+Enumerate all groups on the domain:
 ```bash
 python3 ldap_search.py groups -u user1 -p Password1 -d demo.local
 ```
