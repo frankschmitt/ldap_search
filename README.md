@@ -9,7 +9,7 @@ ldap_search is an LDAP query tool to enumerate Users, Groups, and Computers on a
 
 ### Installation
 ```bash
-git clone https://github.com/m8r0wn/ldap_search
+git clone --recursive https://github.com/m8r0wn/ldap_search
 cd ldap_search
 chmod +x setup.sh
 ./setup.sh
