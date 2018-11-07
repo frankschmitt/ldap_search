@@ -7,7 +7,8 @@ LDAP_Search can be used to to enumerate Users, Groups, and Computers on a Window
 
 *Note:* ldap_search, although functional, is more of a PoC. Stay tuned for updates in functionality and formatting.
 
-### Installation
+
+## Installation
 ```bash
 git clone --recursive https://github.com/m8r0wn/ldap_search
 cd ldap_search
@@ -15,7 +16,8 @@ sudo chmod +x setup.sh
 sudo ./setup.sh
 ```
 
-### Usage
+
+## Usage
 
 Enumerate all active users on a domain:
 ```bash
@@ -42,5 +44,6 @@ Query group members:
 python3 ldap_search.py groups -q "Domain Admins" -u user1 -p Password1 -d demo.local
 ```
 
-### Credits
+
+## Credits
 * ![Impacket](https://github.com/SecureAuthCorp/impacket/tree/python36)&nbsp;&nbsp;*(v.0.9.18-dev)*
