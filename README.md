@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Python-3.6-blue.svg)&nbsp;&nbsp;
 ![](https://img.shields.io/badge/License-GPL%203.0-green.svg)
 
-ldap_search is an LDAP query tool that can be used to to enumerate Users, Groups, and Computers on a Windows Domain. In addition, this tool to identify valid accounts through bruteforce/password-spraying via LDAP. It makes use of Impackets python36 branch (still in dev) to perform its main operations and allows login via traditional passwords or hashes.
+LDAP_Search can be used to to enumerate Users, Groups, and Computers on a Windows Domain. In addition, this tool can bruteforce/password-spraying valid accounts via LDAP. It makes use of Impackets python36 branch (still in dev) to perform its main operations and allows authentication via traditional passwords or hashes.
 
 *Note:* ldap_search, although functional, is more of a PoC. Stay tuned for updates in functionality and formatting.
 
