@@ -11,8 +11,8 @@ ldap_search is an LDAP query tool to enumerate Users, Groups, and Computers on a
 ```bash
 git clone --recursive https://github.com/m8r0wn/ldap_search
 cd ldap_search
-chmod +x setup.sh
-./setup.sh
+sudo chmod +x setup.sh
+sudo ./setup.sh
 ```
 
 ### Usage
