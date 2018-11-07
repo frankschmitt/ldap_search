@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Python-3.6-blue.svg)&nbsp;&nbsp;
 
-ldap_search is an LDAP query tool to enumerate Users, Groups, and Computers on a Windows Domains.
+ldap_search is an LDAP query tool to enumerate Users, Groups, and Computers on a Windows Domains. It also has the ability to brute force / password spray users via LDAP.
 
 
 *Note:* ldap_search, although functional, is more of a PoC. Stay tuned for updates in functionality and formatting.
