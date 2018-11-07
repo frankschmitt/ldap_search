@@ -43,5 +43,5 @@ python3 ldap_search.py groups -q "Domain Admins" -u user1 -p Password1 -d demo.l
 ```
 
 ### Credits
-ldap_search leans heavily on the following libraries to 
+ldap_search leans heavily on the following libraries to perform its operations:
 * ![Impacket](https://github.com/SecureAuthCorp/impacket/tree/python36) *(v.0.9.18-dev)*
