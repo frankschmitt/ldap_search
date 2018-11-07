@@ -1,0 +1,4 @@
+[submodule "impacket"]
+	path = impacket
+    url = https://github.com/SecureAuthCorp/impacket
+    branch = python36
